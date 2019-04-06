@@ -1,0 +1,54 @@
+---
+http_interactions:
+- request:
+    method: post
+    uri: https://login.eagleeyenetworks.com/g/aaa/authenticate
+    body:
+      encoding: UTF-8
+      string: '{"username":"demo@een.com","password":"bettercloud"}'
+    headers:
+      User-Agent:
+      - Faraday v0.15.4
+      Content-Type:
+      - application/json
+      Authentication:
+      - ''
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - openresty
+      Date:
+      - Sat, 06 Apr 2019 18:32:04 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '330'
+      Connection:
+      - keep-alive
+      Vary:
+      - Authorization, Cookie, Accept-Encoding
+      Expires:
+      - Sun, 07 Apr 2019 18:32:04 GMT
+      Cache-Control:
+      - max-age=86400
+      X-Ee-Request-Id:
+      - da90a4243e8effc3b1d9025ca2813869
+      P3p:
+      - policyref="/w3c/p3p.xml", CP="IDC DSP COR ADM DEVi TAIi PSA PSD IVAi IVDi
+        CONi HIS OUR IND CNT"
+    body:
+      encoding: ASCII-8BIT
+      string: |-
+        {
+            "token": "c6QsmQaEYCPunrKBKXELgTrnD7KwNC3oi7zn1XQzIUfMNdpmrXVIH3JWEVktA5p5aRptkzLrztEw5lXBzds+g7k1JXSomwVXkox2yC//y8jc2KbEXMOV/KtNsl4Nok8a2XyT51/esfxK2wd20axmUlg5JnfaAxjnnOy+49VrgpYp49s39xawJCi11UUlr5fjYMENxS1y+fXAJz0JqlvN488rweFhnSb9cYl1+y/VQFv37gEGJ3wFIPJPuH216a+pYwvwL9n10Kg7TfAIdV2y8FmJL0KeSlEKaJs7+8KpOSSBzJW7MK4R1FNpjRQIIXvHZy9+R8Glq7/MsV2QDwv5HA=="
+        }
+    http_version: 
+  recorded_at: Sat, 06 Apr 2019 18:32:05 GMT
+recorded_with: VCR 4.0.0

@@ -1,0 +1,623 @@
+---
+http_interactions:
+- request:
+    method: post
+    uri: https://login.eagleeyenetworks.com/g/aaa/authenticate
+    body:
+      encoding: UTF-8
+      string: '{"username":"demo@een.com","password":"bettercloud"}'
+    headers:
+      User-Agent:
+      - Faraday v0.15.4
+      Content-Type:
+      - application/json
+      Authentication:
+      - ''
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - openresty
+      Date:
+      - Sat, 06 Apr 2019 18:32:06 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '329'
+      Connection:
+      - keep-alive
+      Vary:
+      - Authorization, Cookie, Accept-Encoding
+      Expires:
+      - Sun, 07 Apr 2019 18:32:06 GMT
+      Cache-Control:
+      - max-age=86400
+      X-Ee-Request-Id:
+      - 82c736d466203c91f774ded95db401d9
+      P3p:
+      - policyref="/w3c/p3p.xml", CP="IDC DSP COR ADM DEVi TAIi PSA PSD IVAi IVDi
+        CONi HIS OUR IND CNT"
+    body:
+      encoding: ASCII-8BIT
+      string: |-
+        {
+            "token": "SKYAaOVi4sCVeDdv9FS/+a3trg/dNRmYL4CrR74O7H13tb/qV0JSBsvJuN+1LPQ6qeL6n4CUXMO5hmow+uQf7bxqU6HpHhZb66j+abUIwQ/XJ+Cav+SAQBKsmh9P0gDLCWPKoF4Zb7As+9g9bI4DYUn/VttZejLn3N7M3YgFsvBoFLK0Puem9ySTGclk578qWf90sHJBlfzveLvITvvITTvheel2YLXtR9AkNiYhKV6vQoUuzqny64qDiNC9qUmR7HNQB7CgF76bWOb3p0UwiK5h7JElL02c0WfyMvdks9sWzJJoZp3dpB5L1xIvpc7StltJaOpdy/e77TLYQIGxwQ=="
+        }
+    http_version: 
+  recorded_at: Sat, 06 Apr 2019 18:32:06 GMT
+- request:
+    method: post
+    uri: https://login.eagleeyenetworks.com/g/aaa/authorize
+    body:
+      encoding: UTF-8
+      string: '{"token":"SKYAaOVi4sCVeDdv9FS/+a3trg/dNRmYL4CrR74O7H13tb/qV0JSBsvJuN+1LPQ6qeL6n4CUXMO5hmow+uQf7bxqU6HpHhZb66j+abUIwQ/XJ+Cav+SAQBKsmh9P0gDLCWPKoF4Zb7As+9g9bI4DYUn/VttZejLn3N7M3YgFsvBoFLK0Puem9ySTGclk578qWf90sHJBlfzveLvITvvITTvheel2YLXtR9AkNiYhKV6vQoUuzqny64qDiNC9qUmR7HNQB7CgF76bWOb3p0UwiK5h7JElL02c0WfyMvdks9sWzJJoZp3dpB5L1xIvpc7StltJaOpdy/e77TLYQIGxwQ=="}'
+    headers:
+      User-Agent:
+      - Faraday v0.15.4
+      Content-Type:
+      - application/json
+      Authentication:
+      - ''
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - openresty
+      Date:
+      - Sat, 06 Apr 2019 18:32:07 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '2393'
+      Connection:
+      - keep-alive
+      Vary:
+      - Authorization, Cookie, Accept-Encoding
+      Set-Cookie:
+      - auth_key=c000~af65591405c8165d71a703a75ccd27b3; Domain=.eagleeyenetworks.com;
+        expires=Sat, 06-Apr-2019 22:32:06 GMT; httponly; Max-Age=14399; Path=/
+      - videobank_sessionid=c000~af65591405c8165d71a703a75ccd27b3; Domain=.eagleeyenetworks.com;
+        expires=Sat, 06-Apr-2019 22:32:06 GMT; httponly; Max-Age=14399; Path=/
+      Expires:
+      - Sun, 07 Apr 2019 18:32:07 GMT
+      Cache-Control:
+      - max-age=86400
+      X-Ee-Request-Id:
+      - ef4cc519f05bcd29f508a6bea32444ff
+      P3p:
+      - policyref="/w3c/p3p.xml", CP="IDC DSP COR ADM DEVi TAIi PSA PSD IVAi IVDi
+        CONi HIS OUR IND CNT"
+    body:
+      encoding: ASCII-8BIT
+      string: |-
+        {
+            "is_sms_include_picture": 0,
+            "last_name": "User",
+            "uid": "demo@een.com",
+            "is_all_layout_access": 0,
+            "user_log_level": 0,
+            "is_export_video": 1,
+            "is_branded": 1,
+            "is_edit_all_users": 0,
+            "is_edit_account": 1,
+            "layouts": [
+                "6ba2928a-0eea-11e9-bb6c-0a580af4018e",
+                "f3b8b244-1359-11e9-abb3-0a580af4053f",
+                "6ac17958-1435-11e9-a153-0a580af40210",
+                "28b564c0-d6dd-11e7-83cf-02420a816207",
+                "a7321a9a-795b-11e6-ae2a-02420a02280e",
+                "82067070-85e1-11e2-8c2b-ca8312ea370c",
+                "79f7c14c-0088-11e7-a318-02420a02540f",
+                "8b48c9e4-2977-11e5-99ce-bcee7b75763a",
+                "04080ed0-f830-11e5-a068-fcaa14b7808b",
+                "6b68bffc-c68d-11e2-8902-ca8312ea370c",
+                "93d25406-bb06-11e5-9ea4-e03f497fd209",
+                "3cc35a5a-a878-11e7-b54a-02420a026218",
+                "fe851188-8ed7-11e8-a67c-02420a81b80a",
+                "37c3bb98-f830-11e5-bb54-fcaa14b78098",
+                "a4b6196a-8ebc-11e8-8e81-02420a81b804",
+                "ae88a8fa-8bd9-11e6-b673-02420a02010a",
+                "67b4c768-b6a9-11e3-8a30-523445989f37"
+            ],
+            "is_staff": 0,
+            "postal_code": null,
+            "is_account_superuser": 0,
+            "active_white_label_domain": null,
+            "is_edit_camera_less_billing": 1,
+            "timezone": "US/Central",
+            "is_view_contract": 0,
+            "id": "cafe8174",
+            "city": null,
+            "first_name": "Demo",
+            "is_system_notifications_disabled": 0,
+            "is_edit_cameras": 1,
+            "is_notify_enable": 1,
+            "owner_account_id": "00001106",
+            "account_map_lines": {
+                "1": [
+                    [
+                        "p",
+                        [
+                            30.479939,
+                            -97.688075
+                        ],
+                        [
+                            30.479809,
+                            -97.688048
+                        ],
+                        [
+                            30.479826,
+                            -97.687954
+                        ],
+                        [
+                            30.479779,
+                            -97.687943
+                        ],
+                        [
+                            30.479759,
+                            -97.688034
+                        ],
+                        [
+                            30.479655,
+                            -97.688012
+                        ],
+                        [
+                            30.479645,
+                            -97.688056
+                        ],
+                        [
+                            30.479932,
+                            -97.688112
+                        ]
+                    ],
+                    [
+                        "p",
+                        [
+                            30.340454,
+                            -97.967415
+                        ],
+                        [
+                            30.340515,
+                            -97.967327
+                        ],
+                        [
+                            30.340352,
+                            -97.967144
+                        ],
+                        [
+                            30.340295,
+                            -97.967228
+                        ]
+                    ],
+                    [
+                        "l",
+                        [
+                            30.340409,
+                            -97.967361
+                        ],
+                        [
+                            30.340439,
+                            -97.967314
+                        ],
+                        [
+                            30.340472,
+                            -97.967352
+                        ],
+                        [
+                            30.34048,
+                            -97.967341
+                        ],
+                        [
+                            30.340437,
+                            -97.967294
+                        ],
+                        [
+                            30.3404,
+                            -97.967351
+                        ]
+                    ],
+                    [
+                        "l",
+                        [
+                            30.340373,
+                            -97.96732
+                        ],
+                        [
+                            30.340409,
+                            -97.967266
+                        ],
+                        [
+                            30.340426,
+                            -97.967284
+                        ]
+                    ],
+                    [
+                        "l",
+                        [
+                            30.340306,
+                            -97.967214
+                        ],
+                        [
+                            30.340333,
+                            -97.967244
+                        ],
+                        [
+                            30.340346,
+                            -97.967226
+                        ]
+                    ],
+                    [
+                        "l",
+                        [
+                            30.340352,
+                            -97.967218
+                        ],
+                        [
+                            30.340323,
+                            -97.967186
+                        ]
+                    ]
+                ],
+                "16": [
+                    [
+                        "p",
+                        [
+                            30.269341,
+                            -97.740729
+                        ],
+                        [
+                            30.269111,
+                            -97.740566
+                        ],
+                        [
+                            30.269051,
+                            -97.740612
+                        ],
+                        [
+                            30.269013,
+                            -97.740586
+                        ],
+                        [
+                            30.268988,
+                            -97.740635
+                        ],
+                        [
+                            30.268919,
+                            -97.740603
+                        ],
+                        [
+                            30.268865,
+                            -97.740721
+                        ],
+                        [
+                            30.268951,
+                            -97.740771
+                        ],
+                        [
+                            30.268976,
+                            -97.740865
+                        ],
+                        [
+                            30.269162,
+                            -97.740796
+                        ]
+                    ],
+                    [
+                        "l",
+                        [
+                            30.269113,
+                            -97.740645
+                        ],
+                        [
+                            30.269045,
+                            -97.74067
+                        ],
+                        [
+                            30.269051,
+                            -97.74069
+                        ],
+                        [
+                            30.269119,
+                            -97.740665
+                        ],
+                        [
+                            30.269113,
+                            -97.740646
+                        ]
+                    ],
+                    [
+                        "l",
+                        [
+                            30.269035,
+                            -97.740696
+                        ],
+                        [
+                            30.268971,
+                            -97.740727
+                        ],
+                        [
+                            30.268964,
+                            -97.740708
+                        ],
+                        [
+                            30.269029,
+                            -97.740678
+                        ],
+                        [
+                            30.269035,
+                            -97.740696
+                        ]
+                    ],
+                    [
+                        "l",
+                        [
+                            30.269107,
+                            -97.740695
+                        ],
+                        [
+                            30.269023,
+                            -97.740728
+                        ]
+                    ],
+                    [
+                        "l",
+                        [
+                            30.269013,
+                            -97.740762
+                        ],
+                        [
+                            30.268985,
+                            -97.740774
+                        ],
+                        [
+                            30.268971,
+                            -97.740727
+                        ]
+                    ],
+                    [
+                        "l",
+                        [
+                            30.269013,
+                            -97.740762
+                        ],
+                        [
+                            30.268999,
+                            -97.740714
+                        ]
+                    ],
+                    [
+                        "l",
+                        [
+                            30.268988,
+                            -97.740635
+                        ],
+                        [
+                            30.268967,
+                            -97.74068
+                        ]
+                    ],
+                    [
+                        "l",
+                        [
+                            30.268942,
+                            -97.740765
+                        ],
+                        [
+                            30.268964,
+                            -97.740708
+                        ]
+                    ],
+                    [
+                        "l",
+                        [
+                            30.269084,
+                            -97.740639
+                        ],
+                        [
+                            30.269074,
+                            -97.740606
+                        ]
+                    ],
+                    [
+                        "l",
+                        [
+                            30.269035,
+                            -97.740843
+                        ],
+                        [
+                            30.269019,
+                            -97.740787
+                        ]
+                    ],
+                    [
+                        "l",
+                        [
+                            30.269054,
+                            -97.740806
+                        ],
+                        [
+                            30.269043,
+                            -97.740808
+                        ],
+                        [
+                            30.269036,
+                            -97.740782
+                        ],
+                        [
+                            30.269047,
+                            -97.740779
+                        ],
+                        [
+                            30.269054,
+                            -97.740806
+                        ]
+                    ],
+                    [
+                        "l",
+                        [
+                            30.269129,
+                            -97.740764
+                        ],
+                        [
+                            30.269116,
+                            -97.740719
+                        ]
+                    ],
+                    [
+                        "l",
+                        [
+                            30.269266,
+                            -97.740757
+                        ],
+                        [
+                            30.269261,
+                            -97.740707
+                        ]
+                    ]
+                ]
+            },
+            "is_view_preview_video": 1,
+            "is_user_create_layout": 1,
+            "inactive_session_timeout": null,
+            "is_terms_noncompliant": 0,
+            "active_brand_subdomain": "c000",
+            "notify_period": [
+                "0-0000-2359",
+                "1-0000-2359",
+                "2-0000-2359",
+                "3-0000-2359",
+                "4-0000-2359",
+                "5-0000-2359",
+                "6-0000-2359"
+            ],
+            "is_superuser": 0,
+            "json": "{\"temp_account_access\": [], \"weekly_newsletter\": 1, \"is_all_layout_access\": false, \"language\": \"en-us\", \"saved_filters\": [[\"counting\", \"counting\"], [\"bridges\", \"device_type:bridge\"], [\"cameras off\", \":off\"], [\"cameras offline\", \":offline\"], [\"ZipCode 78734\", \"78734\"], [\"intrusion\", \"intrusion\"], [\"line crossing\", \"\\\"line crossing\\\"\"], [\"loitering\", \"loitering\"], [\"dallas\", \"dallas\"]], \"een\": {\"motion_boxes\": true, \"layout_rotation_seconds\": null, \"show_AMPM\": false, \"analytics\": 1, \"layouts\": {\"00001106\": [\"28b564c0-d6dd-11e7-83cf-02420a816207\", \"a7321a9a-795b-11e6-ae2a-02420a02280e\", \"67b4c768-b6a9-11e3-8a30-523445989f37\", \"f3b8b244-1359-11e9-abb3-0a580af4053f\", \"6ac17958-1435-11e9-a153-0a580af40210\", \"79f7c14c-0088-11e7-a318-02420a02540f\", \"8b48c9e4-2977-11e5-99ce-bcee7b75763a\", \"82067070-85e1-11e2-8c2b-ca8312ea370c\", \"fe851188-8ed7-11e8-a67c-02420a81b80a\", \"a4b6196a-8ebc-11e8-8e81-02420a81b804\", \"ae88a8fa-8bd9-11e6-b673-02420a02010a\", \"6ba2928a-0eea-11e9-bb6c-0a580af4018e\", \"04080ed0-f830-11e5-a068-fcaa14b7808b\", \"6b68bffc-c68d-11e2-8902-ca8312ea370c\", \"3cc35a5a-a878-11e7-b54a-02420a026218\", \"37c3bb98-f830-11e5-bb54-fcaa14b78098\", \"93d25406-bb06-11e5-9ea4-e03f497fd209\"]}, \"milliseconds_display\": false, \"notify_levels\": [1, 2], \"permissions\": {}}, \"is_all_camera_access\": false}",
+            "is_edit_users": 1,
+            "last_login": "20190406183040.831",
+            "is_recorded_video": 1,
+            "is_edit_camera_on_off": 1,
+            "camera_access": [
+                [
+                    "10097da5",
+                    "r"
+                ],
+                [
+                    "100a5bc2",
+                    "r"
+                ],
+                [
+                    "100e1e7d",
+                    "r"
+                ],
+                [
+                    "1001c49e",
+                    "r"
+                ]
+            ],
+            "alternate_email": null,
+            "email": "demo@een.com",
+            "is_edit_all_and_add": 1,
+            "user_id": "cafe8174",
+            "utc_offset": -18000,
+            "mobile_phone": null,
+            "weekly_newsletter": 1,
+            "is_mobile_branded": 0,
+            "state": null,
+            "language": "en-us",
+            "account_utc_offset": -18000,
+            "is_edit_map": 1,
+            "is_active": 1,
+            "user_authenticated_clients": null,
+            "is_user_admin": 1,
+            "saved_filters": [
+                [
+                    "counting",
+                    "counting"
+                ],
+                [
+                    "bridges",
+                    "device_type:bridge"
+                ],
+                [
+                    "cameras off",
+                    ":off"
+                ],
+                [
+                    "cameras offline",
+                    ":offline"
+                ],
+                [
+                    "ZipCode 78734",
+                    "78734"
+                ],
+                [
+                    "intrusion",
+                    "intrusion"
+                ],
+                [
+                    "line crossing",
+                    "\"line crossing\""
+                ],
+                [
+                    "loitering",
+                    "loitering"
+                ],
+                [
+                    "dallas",
+                    "dallas"
+                ]
+            ],
+            "phone": "512-473-0500",
+            "is_layout_admin": 1,
+            "is_view_all_accounts": 0,
+            "account_work_hours": [
+                "0800",
+                "1730"
+            ],
+            "is_edit_sharing": 1,
+            "is_live_video": 1,
+            "is_edit_admin_users": 0,
+            "is_all_camera_access": 0,
+            "account_work_days": "1111100",
+            "is_device_admin": 1,
+            "active_account_id": "00001106",
+            "country": "US",
+            "sms_phone": null,
+            "access_period": [
+                "0-0000-2359",
+                "1-0000-2359",
+                "2-0000-2359",
+                "3-0000-2359",
+                "4-0000-2359",
+                "5-0000-2359",
+                "6-0000-2359"
+            ],
+            "is_two_factor_authentication_enabled": 0,
+            "is_edit_ptz_stations": 1,
+            "is_view_audit_trail": 0,
+            "street": [],
+            "notify_rule": [
+                "one-gui-0",
+                "one-email-0"
+            ],
+            "is_master": 0,
+            "is_ptz_live": 1,
+            "is_edit_motion_areas": 1,
+            "is_pending": 0,
+            "temp_account_access": []
+        }
+    http_version: 
+  recorded_at: Sat, 06 Apr 2019 18:32:07 GMT
+recorded_with: VCR 4.0.0
