@@ -25,21 +25,21 @@ http_interactions:
       Server:
       - openresty
       Date:
-      - Sat, 06 Apr 2019 18:32:06 GMT
+      - Mon, 08 Apr 2019 07:46:35 GMT
       Content-Type:
       - application/json; charset=utf-8
       Content-Length:
-      - '329'
+      - '331'
       Connection:
       - keep-alive
       Vary:
       - Authorization, Cookie, Accept-Encoding
       Expires:
-      - Sun, 07 Apr 2019 18:32:06 GMT
+      - Tue, 09 Apr 2019 07:46:35 GMT
       Cache-Control:
       - max-age=86400
       X-Ee-Request-Id:
-      - 82c736d466203c91f774ded95db401d9
+      - 9130e64115b38de5b4d42d65b059ae4b
       P3p:
       - policyref="/w3c/p3p.xml", CP="IDC DSP COR ADM DEVi TAIi PSA PSD IVAi IVDi
         CONi HIS OUR IND CNT"
@@ -47,16 +47,16 @@ http_interactions:
       encoding: ASCII-8BIT
       string: |-
         {
-            "token": "SKYAaOVi4sCVeDdv9FS/+a3trg/dNRmYL4CrR74O7H13tb/qV0JSBsvJuN+1LPQ6qeL6n4CUXMO5hmow+uQf7bxqU6HpHhZb66j+abUIwQ/XJ+Cav+SAQBKsmh9P0gDLCWPKoF4Zb7As+9g9bI4DYUn/VttZejLn3N7M3YgFsvBoFLK0Puem9ySTGclk578qWf90sHJBlfzveLvITvvITTvheel2YLXtR9AkNiYhKV6vQoUuzqny64qDiNC9qUmR7HNQB7CgF76bWOb3p0UwiK5h7JElL02c0WfyMvdks9sWzJJoZp3dpB5L1xIvpc7StltJaOpdy/e77TLYQIGxwQ=="
+            "token": "DUbBtIx4NYz7SyUtZ8CY9vciFLC4lQF7Z1+ANaI7znasCUWbO0agMrvT+XoCgNaYpdpPdXnXzsOE2Q4vduH7VOAkTuiqIoahd637g71fcOQh22Fi5MEyS6Oed0dlE9yQgaQi9OYy++cQx8as/ex0ItiZ9yBbr+XmcDDW4zFdvbob256IG3Ul3AhLs8iMhtC68YJXdGwieiFFogIqgbZD+qdREnDC+2vUWvbefDehg00Be2ECHuYk/umP1yu8eCJ1NF7gQ7td8xbnBdZHZnfP8yVZ5RRkjZjyds85Zhkl4RpSlQOBGAzTeOWX6TgCmwOs4V8WeThSgljyy8iTbvqyKQ=="
         }
     http_version: 
-  recorded_at: Sat, 06 Apr 2019 18:32:06 GMT
+  recorded_at: Mon, 08 Apr 2019 07:46:35 GMT
 - request:
     method: post
     uri: https://login.eagleeyenetworks.com/g/aaa/authorize
     body:
       encoding: UTF-8
-      string: '{"token":"SKYAaOVi4sCVeDdv9FS/+a3trg/dNRmYL4CrR74O7H13tb/qV0JSBsvJuN+1LPQ6qeL6n4CUXMO5hmow+uQf7bxqU6HpHhZb66j+abUIwQ/XJ+Cav+SAQBKsmh9P0gDLCWPKoF4Zb7As+9g9bI4DYUn/VttZejLn3N7M3YgFsvBoFLK0Puem9ySTGclk578qWf90sHJBlfzveLvITvvITTvheel2YLXtR9AkNiYhKV6vQoUuzqny64qDiNC9qUmR7HNQB7CgF76bWOb3p0UwiK5h7JElL02c0WfyMvdks9sWzJJoZp3dpB5L1xIvpc7StltJaOpdy/e77TLYQIGxwQ=="}'
+      string: '{"token":"DUbBtIx4NYz7SyUtZ8CY9vciFLC4lQF7Z1+ANaI7znasCUWbO0agMrvT+XoCgNaYpdpPdXnXzsOE2Q4vduH7VOAkTuiqIoahd637g71fcOQh22Fi5MEyS6Oed0dlE9yQgaQi9OYy++cQx8as/ex0ItiZ9yBbr+XmcDDW4zFdvbob256IG3Ul3AhLs8iMhtC68YJXdGwieiFFogIqgbZD+qdREnDC+2vUWvbefDehg00Be2ECHuYk/umP1yu8eCJ1NF7gQ7td8xbnBdZHZnfP8yVZ5RRkjZjyds85Zhkl4RpSlQOBGAzTeOWX6TgCmwOs4V8WeThSgljyy8iTbvqyKQ=="}'
     headers:
       User-Agent:
       - Faraday v0.15.4
@@ -76,26 +76,26 @@ http_interactions:
       Server:
       - openresty
       Date:
-      - Sat, 06 Apr 2019 18:32:07 GMT
+      - Mon, 08 Apr 2019 07:46:36 GMT
       Content-Type:
       - application/json; charset=utf-8
       Content-Length:
-      - '2393'
+      - '2392'
       Connection:
       - keep-alive
       Vary:
       - Authorization, Cookie, Accept-Encoding
       Set-Cookie:
-      - auth_key=c000~af65591405c8165d71a703a75ccd27b3; Domain=.eagleeyenetworks.com;
-        expires=Sat, 06-Apr-2019 22:32:06 GMT; httponly; Max-Age=14399; Path=/
-      - videobank_sessionid=c000~af65591405c8165d71a703a75ccd27b3; Domain=.eagleeyenetworks.com;
-        expires=Sat, 06-Apr-2019 22:32:06 GMT; httponly; Max-Age=14399; Path=/
+      - auth_key=c000~3c91177b7cf51c9cb6cad147cc27a49c; Domain=.eagleeyenetworks.com;
+        expires=Mon, 08-Apr-2019 11:46:35 GMT; httponly; Max-Age=14399; Path=/
+      - videobank_sessionid=c000~3c91177b7cf51c9cb6cad147cc27a49c; Domain=.eagleeyenetworks.com;
+        expires=Mon, 08-Apr-2019 11:46:35 GMT; httponly; Max-Age=14399; Path=/
       Expires:
-      - Sun, 07 Apr 2019 18:32:07 GMT
+      - Tue, 09 Apr 2019 07:46:36 GMT
       Cache-Control:
       - max-age=86400
       X-Ee-Request-Id:
-      - ef4cc519f05bcd29f508a6bea32444ff
+      - 14ee6dcffb72fe47717405a9cad39117
       P3p:
       - policyref="/w3c/p3p.xml", CP="IDC DSP COR ADM DEVi TAIi PSA PSD IVAi IVDi
         CONi HIS OUR IND CNT"
@@ -505,7 +505,7 @@ http_interactions:
             "is_superuser": 0,
             "json": "{\"temp_account_access\": [], \"weekly_newsletter\": 1, \"is_all_layout_access\": false, \"language\": \"en-us\", \"saved_filters\": [[\"counting\", \"counting\"], [\"bridges\", \"device_type:bridge\"], [\"cameras off\", \":off\"], [\"cameras offline\", \":offline\"], [\"ZipCode 78734\", \"78734\"], [\"intrusion\", \"intrusion\"], [\"line crossing\", \"\\\"line crossing\\\"\"], [\"loitering\", \"loitering\"], [\"dallas\", \"dallas\"]], \"een\": {\"motion_boxes\": true, \"layout_rotation_seconds\": null, \"show_AMPM\": false, \"analytics\": 1, \"layouts\": {\"00001106\": [\"28b564c0-d6dd-11e7-83cf-02420a816207\", \"a7321a9a-795b-11e6-ae2a-02420a02280e\", \"67b4c768-b6a9-11e3-8a30-523445989f37\", \"f3b8b244-1359-11e9-abb3-0a580af4053f\", \"6ac17958-1435-11e9-a153-0a580af40210\", \"79f7c14c-0088-11e7-a318-02420a02540f\", \"8b48c9e4-2977-11e5-99ce-bcee7b75763a\", \"82067070-85e1-11e2-8c2b-ca8312ea370c\", \"fe851188-8ed7-11e8-a67c-02420a81b80a\", \"a4b6196a-8ebc-11e8-8e81-02420a81b804\", \"ae88a8fa-8bd9-11e6-b673-02420a02010a\", \"6ba2928a-0eea-11e9-bb6c-0a580af4018e\", \"04080ed0-f830-11e5-a068-fcaa14b7808b\", \"6b68bffc-c68d-11e2-8902-ca8312ea370c\", \"3cc35a5a-a878-11e7-b54a-02420a026218\", \"37c3bb98-f830-11e5-bb54-fcaa14b78098\", \"93d25406-bb06-11e5-9ea4-e03f497fd209\"]}, \"milliseconds_display\": false, \"notify_levels\": [1, 2], \"permissions\": {}}, \"is_all_camera_access\": false}",
             "is_edit_users": 1,
-            "last_login": "20190406183040.831",
+            "last_login": "20190408074546.977",
             "is_recorded_video": 1,
             "is_edit_camera_on_off": 1,
             "camera_access": [
@@ -619,5 +619,5 @@ http_interactions:
             "temp_account_access": []
         }
     http_version: 
-  recorded_at: Sat, 06 Apr 2019 18:32:07 GMT
+  recorded_at: Mon, 08 Apr 2019 07:46:36 GMT
 recorded_with: VCR 4.0.0

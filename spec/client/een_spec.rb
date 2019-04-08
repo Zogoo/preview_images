@@ -64,4 +64,27 @@ RSpec.describe Client::Een do
       end
     end
   end
+
+  describe 'get_images' do
+    let!(:een) { described_class.new }
+
+    around(:each) { |example| VCR.use_cassette('/multi_images') { example.run } }
+
+    subject do
+      een.get_images(20, random_camera_id)
+    end
+
+    before do
+      een.authenticate
+      een.authorize
+    end
+
+    context '20 images with 5 concurrent worker' do
+      let!(:random_camera_id) { een.camera_list.map(&:camera_id).sample }
+
+      it 'will execute workers withouth error' do
+        expect { subject }.not_to raise_error
+      end
+    end
+  end
 end

@@ -7,7 +7,7 @@ First you need to register your user and get api key. Everything is well explain
 
 With this repo contain ruby script which is retrieve images from camera.
 
-###### Steps for retrieve images
+##### Steps for retrieve images
 
 You can easily test with CURL with following commands.
 Note: Commands are well explained in the document if you need more info please take a look at it.
@@ -27,22 +27,41 @@ curl --request GET https://[active_brand_subdomain].eagleeyenetworks.com/g/devic
 4. Get preview images from camera
 curl -X GET https://[active_brand_subdomain].eagleeyenetworks.com/asset/asset/image.jpeg -d "id=[CAMERA_ID]" -d "timestamp=now" -d "asset_class=pre" -H "Authentication: [api key]" --cookie "auth_key=[AUTH_KEY]" -G -v
 
-###### How to use ruby script
+##### How to use ruby script
 
 ###### 1. Setup env variable
 
 Create your own .env variable and setup following information
 
 ```
- USER_NAME=<email address>
- PASSWORD=<password>
- IMAGES_LIMIT=20
+  PROTOCOL=https
+  DEFAULT_SUBDOMAIN=login
+  USER_NAME=<email address>
+  PASSWORD=<password>
+  API_KEY=
+  CONCURENCY_LIMIT=5
+  LOG_FILE_NAME='faraday.log'
 ```
 
-##### 2. Execute ruby script
+###### 2. Execute ruby script
 
 Open your command line execute ruby and you will get images in output folder
 
 ```
- ./get_images.rb
+ ./image.rb
 ```
+
+###### 3. Get results
+
+You can find images from `./output` folder
+
+Or if you want to just see sample result please take a look `./output/sample`
+
+##### TODO
+
+1. Image request sometimes failing 400 or 401 error
+HTTP is not stable enough protocol so we need to retry at least 3 times.
+
+3. Corner case for test cases
+
+4. Test cases for Typhoeus concurrent requests

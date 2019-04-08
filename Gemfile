@@ -6,6 +6,7 @@ gem 'dotenv'
 gem 'pry'
 gem 'byebug'
 gem 'faraday'
+gem 'typhoeus'
 gem 'coveralls', require: false
 
 group :test do

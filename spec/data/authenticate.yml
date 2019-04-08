@@ -25,21 +25,21 @@ http_interactions:
       Server:
       - openresty
       Date:
-      - Sat, 06 Apr 2019 18:32:04 GMT
+      - Mon, 08 Apr 2019 07:46:34 GMT
       Content-Type:
       - application/json; charset=utf-8
       Content-Length:
-      - '330'
+      - '329'
       Connection:
       - keep-alive
       Vary:
       - Authorization, Cookie, Accept-Encoding
       Expires:
-      - Sun, 07 Apr 2019 18:32:04 GMT
+      - Tue, 09 Apr 2019 07:46:34 GMT
       Cache-Control:
       - max-age=86400
       X-Ee-Request-Id:
-      - da90a4243e8effc3b1d9025ca2813869
+      - d54b1d85ce3a782d911d89ea359fce50
       P3p:
       - policyref="/w3c/p3p.xml", CP="IDC DSP COR ADM DEVi TAIi PSA PSD IVAi IVDi
         CONi HIS OUR IND CNT"
@@ -47,8 +47,8 @@ http_interactions:
       encoding: ASCII-8BIT
       string: |-
         {
-            "token": "c6QsmQaEYCPunrKBKXELgTrnD7KwNC3oi7zn1XQzIUfMNdpmrXVIH3JWEVktA5p5aRptkzLrztEw5lXBzds+g7k1JXSomwVXkox2yC//y8jc2KbEXMOV/KtNsl4Nok8a2XyT51/esfxK2wd20axmUlg5JnfaAxjnnOy+49VrgpYp49s39xawJCi11UUlr5fjYMENxS1y+fXAJz0JqlvN488rweFhnSb9cYl1+y/VQFv37gEGJ3wFIPJPuH216a+pYwvwL9n10Kg7TfAIdV2y8FmJL0KeSlEKaJs7+8KpOSSBzJW7MK4R1FNpjRQIIXvHZy9+R8Glq7/MsV2QDwv5HA=="
+            "token": "bMRmSDzDgV1B9lPmmrpRkpJQJ433yxuG4DjqUHVrcBZ87gmbB8qxxsuKEtPSwdY9pAQ8ChbQ5Vj9D7DN2nvTXgkAYCBmQhrxFA1wsfzzylCCFqirGYnhv05aljJrb3o7viqdbehurpMmmwMUndJcEbiKvruCrZQ5vmo1FXTKXN7T3IZDCJCcZbFT44xfGjSR0OBlSIyOQStUOpzUpDPEf+K+OLZeXmupaggoaGbP+ZBCQRgl8P+nwCUjBXoW5ksKMiXKtMrMhNJL21cjRyFo372wRUNNFixnd4FOASnt25mQoEJVZUOOQ7Te26COTUb5Lsjigw2PtI62sXYf40pnCA=="
         }
     http_version: 
-  recorded_at: Sat, 06 Apr 2019 18:32:05 GMT
+  recorded_at: Mon, 08 Apr 2019 07:46:34 GMT
 recorded_with: VCR 4.0.0
