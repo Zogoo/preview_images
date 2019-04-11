@@ -1,3 +1,5 @@
+require './client/response/base.rb'
+
 module Client
   module Response
     # Single camera model for camera list

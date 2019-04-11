@@ -1,5 +1,7 @@
 ### Access cameras and get preview images from camera
 
+[![Build Status](https://travis-ci.org/Zogoo/preview_images.png)](https://travis-ci.org/Zogoo/preview_images.png)
+
 EEN have cool api for control and manage cameras.
 https://apidocs.eagleeyenetworks.com/apidocs
 
@@ -36,7 +38,8 @@ Create your own .env variable and setup following information
 ```
   PROTOCOL=https
   DEFAULT_SUBDOMAIN=login
-  USER_NAME=<email address>
+  HOST=eagleeyenetworks.com
+  USER_NAME=<username>
   PASSWORD=<password>
   API_KEY=
   CONCURENCY_LIMIT=5
@@ -63,5 +66,3 @@ Or if you want to just see sample result please take a look `./output/sample`
 HTTP is not stable enough protocol so we need to retry at least 3 times.
 
 3. Corner case for test cases
-
-4. Test cases for Typhoeus concurrent requests

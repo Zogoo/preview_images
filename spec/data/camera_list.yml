@@ -5,7 +5,7 @@ http_interactions:
     uri: https://login.eagleeyenetworks.com/g/aaa/authenticate
     body:
       encoding: UTF-8
-      string: '{"username":"demo@een.com","password":"bettercloud"}'
+      string: '{"username":"username","password":"password"}'
     headers:
       User-Agent:
       - Faraday v0.15.4
@@ -25,21 +25,21 @@ http_interactions:
       Server:
       - openresty
       Date:
-      - Mon, 08 Apr 2019 07:46:39 GMT
+      - Tue, 09 Apr 2019 02:37:27 GMT
       Content-Type:
       - application/json; charset=utf-8
       Content-Length:
-      - '331'
+      - '330'
       Connection:
       - keep-alive
       Vary:
       - Authorization, Cookie, Accept-Encoding
       Expires:
-      - Tue, 09 Apr 2019 07:46:39 GMT
+      - Wed, 10 Apr 2019 02:37:27 GMT
       Cache-Control:
       - max-age=86400
       X-Ee-Request-Id:
-      - 03bcefe46092394c46dbd793bdda104b
+      - 3d40631bad2bf544f51dff9cca597662
       P3p:
       - policyref="/w3c/p3p.xml", CP="IDC DSP COR ADM DEVi TAIi PSA PSD IVAi IVDi
         CONi HIS OUR IND CNT"
@@ -47,16 +47,16 @@ http_interactions:
       encoding: ASCII-8BIT
       string: |-
         {
-            "token": "NshPpOYHV5E4R3JUekfBvGs1ZaKSsepPlw4rhvjDYPFoliqbD/tTljnJk3MFENvK2B4Mvs+44FOGAWKSAkqn/KiAIL4aLFC8TCDylj18MGhBazSyoDmplk32/q70P/SUa5+pZN7lQz1ERBPz+md4vh0KeZdh/KYOkNF4jE6ppNcMEMn4IcgfX71NuTGiJwDdrm+5/vjcZRn8XwPfZozOHvnADEj7d8bygIVgMWc7WAZHBFLBFNKHgaXs9quL1uD/OrwakOTifzkg8dZh0WBZUX5f2Y3OOH9uCXKATJM2v4nKWDoVZYveNQKbbexOcCRtEIrDEW+0bhjC21zjgEku2Q=="
+            "token": "JKcsVkgrh74u1hr4aZDrneQbbLI+k6IkZlArPoKSDpZBWDBIrKFesQQKClG1c1sblJCI26zhHxhvSB/dJaSsa7I2qjp9PqHEEivwZ5msKSKDnMT7Be79htUalV2lw54mD3Ww4EOvhu0HV1wOkPppo29XL8uIfYHIYJ6Hm1UhYIK6fPIFunFFPVgIS87AiGhe1bxeTSwP1JSQcrltE1mNCmvAu0ezlQWH/L2ZdgcTQZFwGuFxJRfQFWynfrCpy8kKIkbn06HklUqBWmu14GnAq7ZQn592IdW1gIbxKqeTxNo/ftd6hOcVby0SyE+5/Hpqeh/zN7J48EBTZEQ0XxxDXw=="
         }
     http_version: 
-  recorded_at: Mon, 08 Apr 2019 07:46:39 GMT
+  recorded_at: Tue, 09 Apr 2019 02:37:27 GMT
 - request:
     method: post
     uri: https://login.eagleeyenetworks.com/g/aaa/authorize
     body:
       encoding: UTF-8
-      string: '{"token":"NshPpOYHV5E4R3JUekfBvGs1ZaKSsepPlw4rhvjDYPFoliqbD/tTljnJk3MFENvK2B4Mvs+44FOGAWKSAkqn/KiAIL4aLFC8TCDylj18MGhBazSyoDmplk32/q70P/SUa5+pZN7lQz1ERBPz+md4vh0KeZdh/KYOkNF4jE6ppNcMEMn4IcgfX71NuTGiJwDdrm+5/vjcZRn8XwPfZozOHvnADEj7d8bygIVgMWc7WAZHBFLBFNKHgaXs9quL1uD/OrwakOTifzkg8dZh0WBZUX5f2Y3OOH9uCXKATJM2v4nKWDoVZYveNQKbbexOcCRtEIrDEW+0bhjC21zjgEku2Q=="}'
+      string: '{"token":"JKcsVkgrh74u1hr4aZDrneQbbLI+k6IkZlArPoKSDpZBWDBIrKFesQQKClG1c1sblJCI26zhHxhvSB/dJaSsa7I2qjp9PqHEEivwZ5msKSKDnMT7Be79htUalV2lw54mD3Ww4EOvhu0HV1wOkPppo29XL8uIfYHIYJ6Hm1UhYIK6fPIFunFFPVgIS87AiGhe1bxeTSwP1JSQcrltE1mNCmvAu0ezlQWH/L2ZdgcTQZFwGuFxJRfQFWynfrCpy8kKIkbn06HklUqBWmu14GnAq7ZQn592IdW1gIbxKqeTxNo/ftd6hOcVby0SyE+5/Hpqeh/zN7J48EBTZEQ0XxxDXw=="}'
     headers:
       User-Agent:
       - Faraday v0.15.4
@@ -76,26 +76,26 @@ http_interactions:
       Server:
       - openresty
       Date:
-      - Mon, 08 Apr 2019 07:46:40 GMT
+      - Tue, 09 Apr 2019 02:37:28 GMT
       Content-Type:
       - application/json; charset=utf-8
       Content-Length:
-      - '2392'
+      - '2393'
       Connection:
       - keep-alive
       Vary:
       - Authorization, Cookie, Accept-Encoding
       Set-Cookie:
-      - auth_key=c000~15862926fd5926033b36da6d8208f5df; Domain=.eagleeyenetworks.com;
-        expires=Mon, 08-Apr-2019 11:46:39 GMT; httponly; Max-Age=14399; Path=/
-      - videobank_sessionid=c000~15862926fd5926033b36da6d8208f5df; Domain=.eagleeyenetworks.com;
-        expires=Mon, 08-Apr-2019 11:46:39 GMT; httponly; Max-Age=14399; Path=/
+      - auth_key=c000~c755704bdb39de0a3f107c1849c2394c; Domain=.eagleeyenetworks.com;
+        expires=Tue, 09-Apr-2019 06:37:27 GMT; httponly; Max-Age=14399; Path=/
+      - videobank_sessionid=c000~c755704bdb39de0a3f107c1849c2394c; Domain=.eagleeyenetworks.com;
+        expires=Tue, 09-Apr-2019 06:37:27 GMT; httponly; Max-Age=14399; Path=/
       Expires:
-      - Tue, 09 Apr 2019 07:46:40 GMT
+      - Wed, 10 Apr 2019 02:37:28 GMT
       Cache-Control:
       - max-age=86400
       X-Ee-Request-Id:
-      - 3172a26f7ccc1382423c87918ced8cac
+      - 6b02ff3778b985c083ad94be0ddbceaf
       P3p:
       - policyref="/w3c/p3p.xml", CP="IDC DSP COR ADM DEVi TAIi PSA PSD IVAi IVDi
         CONi HIS OUR IND CNT"
@@ -105,7 +105,7 @@ http_interactions:
         {
             "is_sms_include_picture": 0,
             "last_name": "User",
-            "uid": "demo@een.com",
+            "uid": "username",
             "is_all_layout_access": 0,
             "user_log_level": 0,
             "is_export_video": 1,
@@ -505,7 +505,7 @@ http_interactions:
             "is_superuser": 0,
             "json": "{\"temp_account_access\": [], \"weekly_newsletter\": 1, \"is_all_layout_access\": false, \"language\": \"en-us\", \"saved_filters\": [[\"counting\", \"counting\"], [\"bridges\", \"device_type:bridge\"], [\"cameras off\", \":off\"], [\"cameras offline\", \":offline\"], [\"ZipCode 78734\", \"78734\"], [\"intrusion\", \"intrusion\"], [\"line crossing\", \"\\\"line crossing\\\"\"], [\"loitering\", \"loitering\"], [\"dallas\", \"dallas\"]], \"een\": {\"motion_boxes\": true, \"layout_rotation_seconds\": null, \"show_AMPM\": false, \"analytics\": 1, \"layouts\": {\"00001106\": [\"28b564c0-d6dd-11e7-83cf-02420a816207\", \"a7321a9a-795b-11e6-ae2a-02420a02280e\", \"67b4c768-b6a9-11e3-8a30-523445989f37\", \"f3b8b244-1359-11e9-abb3-0a580af4053f\", \"6ac17958-1435-11e9-a153-0a580af40210\", \"79f7c14c-0088-11e7-a318-02420a02540f\", \"8b48c9e4-2977-11e5-99ce-bcee7b75763a\", \"82067070-85e1-11e2-8c2b-ca8312ea370c\", \"fe851188-8ed7-11e8-a67c-02420a81b80a\", \"a4b6196a-8ebc-11e8-8e81-02420a81b804\", \"ae88a8fa-8bd9-11e6-b673-02420a02010a\", \"6ba2928a-0eea-11e9-bb6c-0a580af4018e\", \"04080ed0-f830-11e5-a068-fcaa14b7808b\", \"6b68bffc-c68d-11e2-8902-ca8312ea370c\", \"3cc35a5a-a878-11e7-b54a-02420a026218\", \"37c3bb98-f830-11e5-bb54-fcaa14b78098\", \"93d25406-bb06-11e5-9ea4-e03f497fd209\"]}, \"milliseconds_display\": false, \"notify_levels\": [1, 2], \"permissions\": {}}, \"is_all_camera_access\": false}",
             "is_edit_users": 1,
-            "last_login": "20190408074640.094",
+            "last_login": "20190409023727.895",
             "is_recorded_video": 1,
             "is_edit_camera_on_off": 1,
             "camera_access": [
@@ -527,7 +527,7 @@ http_interactions:
                 ]
             ],
             "alternate_email": null,
-            "email": "demo@een.com",
+            "email": "username",
             "is_edit_all_and_add": 1,
             "user_id": "cafe8174",
             "utc_offset": -18000,
@@ -619,7 +619,7 @@ http_interactions:
             "temp_account_access": []
         }
     http_version: 
-  recorded_at: Mon, 08 Apr 2019 07:46:40 GMT
+  recorded_at: Tue, 09 Apr 2019 02:37:28 GMT
 - request:
     method: get
     uri: https://login.eagleeyenetworks.com/g/device/list
@@ -634,9 +634,9 @@ http_interactions:
       Authentication:
       - ''
       Cookie:
-      - videobank_sessionid=c000~15862926fd5926033b36da6d8208f5df; Domain=.eagleeyenetworks.com;
-        expires=Mon, 08-Apr-2019 11:46:39 GMT; httponly; Max-Age=14399; Path=/, auth_key=c000~15862926fd5926033b36da6d8208f5df;
-        Domain=.eagleeyenetworks.com; expires=Mon, 08-Apr-2019 11:46:39 GMT; httponly;
+      - videobank_sessionid=c000~c755704bdb39de0a3f107c1849c2394c; Domain=.eagleeyenetworks.com;
+        expires=Tue, 09-Apr-2019 06:37:27 GMT; httponly; Max-Age=14399; Path=/, auth_key=c000~c755704bdb39de0a3f107c1849c2394c;
+        Domain=.eagleeyenetworks.com; expires=Tue, 09-Apr-2019 06:37:27 GMT; httponly;
         Max-Age=14399; Path=/
       Accept-Encoding:
       - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
@@ -650,21 +650,21 @@ http_interactions:
       Server:
       - openresty
       Date:
-      - Mon, 08 Apr 2019 07:46:41 GMT
+      - Tue, 09 Apr 2019 02:37:28 GMT
       Content-Type:
       - application/json; charset=utf-8
       Content-Length:
-      - '9285'
+      - '9301'
       Connection:
       - keep-alive
       Vary:
       - Authorization, Cookie, Accept-Encoding
       Expires:
-      - Tue, 09 Apr 2019 07:46:41 GMT
+      - Wed, 10 Apr 2019 02:37:28 GMT
       Cache-Control:
       - max-age=86400
       X-Ee-Request-Id:
-      - 4687e3d110c400927244fbd30d05a699
+      - fbec6f6f7230477e4b75c8dbf3ccd94f
       P3p:
       - policyref="/w3c/p3p.xml", CP="IDC DSP COR ADM DEVi TAIi PSA PSD IVAi IVDi
         CONi HIS OUR IND CNT"
@@ -927,7 +927,7 @@ http_interactions:
                 ],
                 "a3db7660-0829-11b4-8270-4cbd8f053053",
                 "20171128170808259",
-                1474615,
+                1998911,
                 "US/Central",
                 -18000,
                 0,
@@ -972,7 +972,7 @@ http_interactions:
                 ],
                 "9cc160a3-1cde-4077-8104-86846e790b19",
                 null,
-                1441847,
+                1966143,
                 "US/Central",
                 -18000,
                 0,
@@ -1017,7 +1017,7 @@ http_interactions:
                 ],
                 "f1eb4da0-7791-11e3-a77d-47b53b833443",
                 null,
-                1441847,
+                1474615,
                 "US/Central",
                 -18000,
                 0,
@@ -1131,7 +1131,7 @@ http_interactions:
                 ],
                 "57ee16b0-372c-11e8-a167-001c270fad2c",
                 "EN-CDUM-007-20180621140939094",
-                1474615,
+                1998911,
                 "US/Central",
                 -18000,
                 0,
@@ -1489,7 +1489,7 @@ http_interactions:
                 ],
                 "7f9765f0-372b-11e8-870a-001c270fad27",
                 "EN-CDUM-007-20180706145148352",
-                1474615,
+                1998911,
                 "US/Central",
                 -18000,
                 0,
@@ -1997,7 +1997,7 @@ http_interactions:
                 ],
                 "c5ab4ed8-9e63-11e1-a4c0-00408cd9fdc1",
                 null,
-                1474615,
+                1998911,
                 "US/Central",
                 -18000,
                 0,
@@ -2093,7 +2093,7 @@ http_interactions:
                 ],
                 "0d3ecaa0-290e-11e8-804b-001c270f92cd",
                 "EN-CDUM-007-20180719191254484",
-                1474615,
+                1998911,
                 "US/Central",
                 -18000,
                 0,
@@ -2370,7 +2370,7 @@ http_interactions:
                 ],
                 "c0ec95c8-9e63-11e1-8bae-00408cd110b3",
                 null,
-                1474615,
+                1998911,
                 "US/Central",
                 -18000,
                 0,
@@ -2588,7 +2588,7 @@ http_interactions:
                 ],
                 "184e8e80-7774-11e3-9d88-579d35c81939",
                 null,
-                1966143,
+                1998911,
                 "US/Central",
                 -18000,
                 0,
@@ -2631,7 +2631,7 @@ http_interactions:
                 [],
                 "95c665a0-292b-11e8-bf42-001c270f9355",
                 "EN-CDUM-007-20190305154352671",
-                1998911,
+                1474615,
                 "US/Central",
                 -18000,
                 0,
@@ -2674,7 +2674,7 @@ http_interactions:
                 [],
                 "936ffd10-292c-11e8-8b84-001c270f9359",
                 "EN-CDUM-007-20190305153837299",
-                1474615,
+                1998911,
                 "US/Central",
                 -18000,
                 0,
@@ -2719,7 +2719,7 @@ http_interactions:
                 ],
                 "111df8e8-7b30-4ec1-84a0-ec1d87d0ea71",
                 null,
-                1441847,
+                1998911,
                 "US/Central",
                 -18000,
                 0,
@@ -2809,7 +2809,7 @@ http_interactions:
                 ],
                 "1e009e4a-4431-11e6-9d97-e3be5b40e15c",
                 null,
-                1474615,
+                1998911,
                 "US/Central",
                 -18000,
                 0,
@@ -2952,7 +2952,7 @@ http_interactions:
                 ],
                 "075e6cf9-c78e-11b2-80d8-54c4157697db",
                 "20170512192037972",
-                1474615,
+                1998911,
                 "US/Central",
                 -18000,
                 0,
@@ -3414,7 +3414,7 @@ http_interactions:
                 [],
                 "7da62360-292c-11e8-9475-001c270f934e",
                 "EN-CDUM-007-20190305154843775",
-                1998911,
+                1474615,
                 "US/Central",
                 -18000,
                 0,
@@ -3457,7 +3457,7 @@ http_interactions:
                 [],
                 "4117aa90-292c-11e8-a844-001c270f9358",
                 "EN-CDUM-007-20190305153836955",
-                1474615,
+                1998911,
                 "US/Central",
                 -18000,
                 0,
@@ -3646,7 +3646,7 @@ http_interactions:
                 ],
                 "7f0c5b9d-776d-40bc-b366-e17a5f5a3165",
                 null,
-                1441847,
+                1474615,
                 "US/Central",
                 -18000,
                 0,
@@ -3696,7 +3696,7 @@ http_interactions:
                 ],
                 "a3db7661-0829-11b4-8270-4cbd8f053054",
                 "20171128164956552",
-                1474615,
+                1998911,
                 "US/Central",
                 -18000,
                 0,
@@ -4023,7 +4023,7 @@ http_interactions:
                 ],
                 "ecb4fd67-2225-43e6-88e6-f383103409c1",
                 null,
-                1966143,
+                1998911,
                 "US/Central",
                 -18000,
                 0,
@@ -4520,7 +4520,7 @@ http_interactions:
                 [],
                 "03fcbb20-292a-11e8-90c5-001c270f9354",
                 "EN-CDUM-007-20190305153630238",
-                1474615,
+                1998911,
                 "US/Central",
                 -18000,
                 0,
@@ -5037,7 +5037,7 @@ http_interactions:
                 ],
                 "0074d1ad-0e01-431c-92b2-000F7C0CBE25",
                 null,
-                1474615,
+                1441847,
                 "US/Central",
                 -18000,
                 0,
@@ -5132,7 +5132,7 @@ http_interactions:
                 ],
                 "c3bbb23e-9e63-11e1-b3f5-97173d278510",
                 null,
-                1998911,
+                1474615,
                 "US/Central",
                 -18000,
                 0,
@@ -5267,7 +5267,7 @@ http_interactions:
                 [],
                 "de0b0e27-f6bc-47fd-9c9c-7c2955ddb5df",
                 "EEN-BR304-15198",
-                1212417,
+                1179649,
                 "US/Central",
                 -18000,
                 0,
@@ -5386,5 +5386,5 @@ http_interactions:
             ]
         ]
     http_version: 
-  recorded_at: Mon, 08 Apr 2019 07:46:41 GMT
+  recorded_at: Tue, 09 Apr 2019 02:37:29 GMT
 recorded_with: VCR 4.0.0

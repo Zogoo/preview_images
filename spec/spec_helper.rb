@@ -1,5 +1,5 @@
 require 'rubygems'
-require 'dotenv'
+require 'dotenv/load'
 require 'json'
 require 'factory_bot'
 require 'faker'
@@ -118,6 +118,8 @@ VCR.configure do |c|
     c.cassette_library_dir = 'spec/data'
     c.hook_into :webmock
     c.allow_http_connections_when_no_cassette = true
+    c.filter_sensitive_data('username') { ENV['USER_NAME'] }
+    c.filter_sensitive_data('password') { ENV['PASSWORD'] }
 end
 
 Coveralls.wear!

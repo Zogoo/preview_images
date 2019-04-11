@@ -68,7 +68,7 @@ RSpec.describe Client::Een do
   describe 'get_images' do
     let!(:een) { described_class.new }
 
-    around(:each) { |example| VCR.use_cassette('/multi_images') { example.run } }
+    around(:each) { |example| VCR.use_cassette('/multi_images', :record => :new_episodes) { example.run } }
 
     subject do
       een.get_images(20, random_camera_id)
